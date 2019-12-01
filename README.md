@@ -26,7 +26,7 @@ psql --host=localhost --port=54320 --username=postgres --no-password AdventureWo
 Or via docker with `psql` from the image:
 ```
 docker run -it --rm --network=host adventureworks-postgres:latest psql --host=localhost --port=54320 --username=postgres --no-password AdventureWorks
-``
+```
 
 # TODO
 
